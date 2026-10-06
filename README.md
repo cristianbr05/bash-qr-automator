@@ -28,3 +28,27 @@
 1. Instalar la dependencia necesaria en el sistema operativo:
    ```bash
    sudo apt install qrencode
+   ```
+
+2. Crear un archivo llamado `lista.txt` en el mismo directorio que el script. El formato debe ser estrictamente de dos líneas por registro (Nombre deseado seguido de la URL o texto):
+   ```text
+   Documento_01
+   [https://ejemplo.com/doc1](https://ejemplo.com/doc1)
+   Documento_02
+   [https://ejemplo.com/doc2](https://ejemplo.com/doc2)
+   ```
+
+3. Otorgar permisos de ejecución al script:
+   ```bash
+   chmod +x generador_qr.sh
+   ```
+
+4. Ejecutar el script en la terminal:
+   ```bash
+   ./generador_qr.sh
+   ```
+
+5. Los archivos `.svg` generados se guardarán automáticamente en una subcarpeta de nueva creación llamada `codigo_qr` en el directorio de ejecución actual.
+
+---
+*Desarrollado con ayuda de herramientas de IA.*
