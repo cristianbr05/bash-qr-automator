@@ -3,6 +3,6 @@ https://192.168.1.1/admin
 Servidor_Impresion_01
 10.0.0.50
 Manual_Mantenimiento_Red
-https://wiki.empresa.local/docs/mantenimiento
+https://es.wikipedia.org/wiki/GitHub
 Rack_Switches_Planta2
 Rack ID: SW-P2-04
